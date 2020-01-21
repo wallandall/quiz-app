@@ -1,0 +1,111 @@
+[
+  {
+    "label": "What is the minimum file size that I can store on S3?",
+    "choices": [
+      {
+        "value": "1 byte",
+        "correct": false
+      },
+      {
+        "value": "0 bytes",
+        "correct": true
+      },
+      {
+        "value": "1MB",
+        "correct": false
+      },
+      {
+        "value": "1KB",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "What is AWS Storage Gateway?",
+    "choices": [
+      {
+        "value": "It allows a direct MPLS connection in to AWS.",
+        "correct": false
+      },
+      {
+        "value": "It allows large scale import/exports in to the AWS cloud without the use of an internet connection.",
+        "correct": false
+      },
+      {
+        "value": "It is a virtual appliance that can be used to cache S3 locally at a customer's site.",
+        "correct": true
+      },
+      {
+        "value": "None of the above.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "You need to use an Object based storage solution to store your critical, non-replaceable data in a cost effective way. This data will be frequently updated and will need some form of version control enabled on it. Which S3 storage solution should you use?",
+    "choices": [
+      {
+        "value": "S3",
+        "correct": true
+      },
+      {
+        "value": "S3 - RRS",
+        "correct": false
+      },
+      {
+        "value": "S3 - OneZone-IA",
+        "correct": false
+      },
+      {
+        "value": "S3 - IA",
+        "correct": false
+      },
+      {
+        "value": "Glacier",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "S3 has eventual consistency for which HTTP Methods?",
+    "choices": [
+      {
+        "value": "overwrite PUTS and DELETES",
+        "correct": true
+      },
+      {
+        "value": "PUTS of new Objects and DELETES",
+        "correct": false
+      },
+      {
+        "value": "UPDATES and DELETES",
+        "correct": false
+      },
+      {
+        "value": "PUTS of new objects and UPDATES",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "You have uploaded a file to S3. Which HTTP code would indicate that the upload was successful?",
+    "choices": [
+      {
+        "value": "HTTP 200",
+        "correct": true
+      },
+      {
+        "value": "HTTP 404",
+        "correct": false
+      },
+      {
+        "value": "HTTP 307",
+        "correct": false
+      },
+      {
+        "value": "HTTP 501",
+        "correct": false
+      }
+    ]
+  }
+]

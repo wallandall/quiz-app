@@ -1,0 +1,41 @@
+<section>
+  <mat-card *ngIf="questions">
+    <mat-card-content *ngIf="!showResults">
+      <app-question-form
+        [question]="questions[currentQuestionIndex]"
+        (onChoiceMade)="updateChoice($event)"
+      >
+      </app-question-form>
+
+      <div class="progress">
+        <h2>
+          Progress: {{ currentQuestionIndex + 1 }} out of
+          {{ questions.length }}
+        </h2>
+
+        <mat-progress-bar
+          color="secondary"
+          mode="determinate"
+          [value]="progress"
+        >
+        </mat-progress-bar>
+      </div>
+      <mat-card-actions>
+        <button
+          mat-raised-button
+          color="primary"
+          (click)="nextOrViewResults()"
+          [disabled]="!answers.values[currentQuestionIndex]"
+        >
+          {{
+            currentQuestionIndex === questions.length - 1
+              ? "View results"
+              : "Next"
+          }}
+        </button>
+      </mat-card-actions>
+    </mat-card-content>
+
+    <app-results *ngIf="showResults" [answers]="answers"></app-results>
+  </mat-card>
+</section>

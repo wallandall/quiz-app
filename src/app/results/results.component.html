@@ -1,0 +1,25 @@
+<div class="results">
+  <h2>Results: {{ totalQuestions }}</h2>
+
+  <div
+    class="answer"
+    *ngFor="let a of answers.values"
+    [ngClass]="{ correct: a.correct }"
+  >
+    <div *ngIf="a.correct; else incorrect">
+      <mat-icon class="icon">thumb_up_alt</mat-icon>
+      <div class="answer__text">
+        {{ a.value }}
+      </div>
+    </div>
+    <ng-template #incorrect>
+      <mat-icon class="icon">thumb_down_alt</mat-icon>
+      <div class="answer__text">
+        {{ a.value }}
+      </div>
+    </ng-template>
+  </div>
+  <button mat-raised-button color="primary">
+    <a routerLink="/welcome" class="">Choose another quiz</a>
+  </button>
+</div>

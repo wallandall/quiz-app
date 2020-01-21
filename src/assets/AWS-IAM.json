@@ -1,0 +1,158 @@
+[
+  {
+    "label": "Every user you create in the IAM systems starts with...",
+    "choices": [
+      {
+        "value": "Partial Permissions",
+        "correct": false
+      },
+      {
+        "value": "No Permissions",
+        "correct": true
+      },
+      {
+        "value": "Full Permissions",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "You have a client who is considering a move to AWS. In establishing a new account, what is the first thing the company should do?",
+    "choices": [
+      {
+        "value": "Set up an account via SQS (Simple Queue Service).",
+        "correct": false
+      },
+      {
+        "value": "Set up an account using their company email address.",
+        "correct": true
+      },
+      {
+        "value": "Set up an account via SNS (Simple Notification Service)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "You are a developer at a fast growing start up. Until now, you have used the root account to log in to the AWS console. However, as you have taken on more staff, you will now need to stop sharing the root account to prevent accidental damage to your AWS infrastructure. What should you do so that everyone can access the AWS resources they need to do their jobs?",
+    "choices": [
+      {
+        "value": "Give your users the root account credentials so that they can also sign in.",
+        "correct": false
+      },
+      {
+        "value": "Create an additional AWS root account for each new user.",
+        "correct": false
+      },
+      {
+        "value": "Create a customized sign in link such as yourcompany.signin.aws.amazon.com/console for your new users to use to sign in with.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "A new employee has just started work, and it is your job to give her administrator access to the AWS console. You have given her a user name, an access key ID, a secret access key, and you have generated a password for her. She is now able to log in to the AWS console, but she is unable to interact with any AWS services. What should you do next?",
+    "choices": [
+      {
+        "value": "Ensure she is logging in to the AWS console from your corporate network and not the normal internet.",
+        "correct": false
+      },
+      {
+        "value": "Tell her to log out and try logging back in again.",
+        "correct": false
+      },
+      {
+        "value": "Require multi-factor authentication for her user account.",
+        "correct": false
+      },
+      {
+        "value": "Grant her Administrator access by adding her to the Administrators' group.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "What level of access does the root account have?",
+    "choices": [
+      {
+        "value": "Power User Access",
+        "correct": false
+      },
+      {
+        "value": "Read Only Access",
+        "correct": false
+      },
+      {
+        "value": "Administrator Access",
+        "correct": true
+      },
+      {
+        "value": "No Access",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Power User Access allows ________.",
+    "choices": [
+      {
+        "value": "Access to all AWS services except the management of groups and users within IAM.",
+        "correct": true
+      },
+      {
+        "value": "Full Access to all AWS services and resources.",
+        "correct": false
+      },
+      {
+        "value": "Users to inspect the source code of the AWS platform",
+        "correct": false
+      },
+      {
+        "value": "Read-only access to all AWS services and resources.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "You are a solutions architect working for a large engineering company who are moving from a legacy infrastructure to AWS. You have configured the company's first AWS account and you have set up IAM. Your company is based in Andorra, but there will be a small subsidiary operating out of South Korea, so that office will need its own AWS environment. Which of the following statements is true?",
+    "choices": [
+      {
+        "value": "You will need to configure your users regionally, however your policy documents are global.",
+        "correct": false
+      },
+      {
+        "value": "You will then need to configure Users and Policy Documents for each region respectively.",
+        "correct": false
+      },
+      {
+        "value": "You will need to configure Users and Policy Documents only once, as these are applied globally.",
+        "correct": true
+      },
+      {
+        "value": "You will need to configure your policy documents regionally, however your users are global.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "When you create a new user, that user ________.",
+    "choices": [
+      {
+        "value": "Will be able to log in to the console only after multi-factor authentication is enabled on their account.",
+        "correct": false
+      },
+      {
+        "value": "3Will be able to interact with AWS using their access key ID and secret access key using the API, CLI, or the AWS SDKs.00",
+        "correct": true
+      },
+      {
+        "value": "Will only be able to log in to the console in the region in which that user was created.",
+        "correct": false
+      },
+      {
+        "value": "Will be able to log in to the console anywhere in the world, using their access key ID and secret access key.",
+        "correct": false
+      }
+    ]
+  }
+]

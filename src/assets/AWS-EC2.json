@@ -1,0 +1,91 @@
+[
+  {
+    "label": "Amazon's EBS volumes are ________.",
+    "choices": [
+      {
+        "value": "Object based storage",
+        "correct": false
+      },
+      {
+        "value": "Encrypted by default",
+        "correct": false
+      },
+      {
+        "value": "Not suitable for databases",
+        "correct": false
+      },
+      {
+        "value": "Block based storage",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "The use of a cluster placement group is ideal _______",
+    "choices": [
+      {
+        "value": "Your fleet of EC2 instances requires high network throughput and low latency within a single availability zone.",
+        "correct": true
+      },
+      {
+        "value": "When you need to deploy EC2 instances that require high disk IO.",
+        "correct": false
+      },
+      {
+        "value": "When you need to distribute content on a CDN network.",
+        "correct": false
+      },
+      {
+        "value": "Your fleet of EC2 Instances requires low latency and high network throughput across multiple availability zones.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "To retrieve instance metadata or user data you will need to use the following IP Address:",
+    "choices": [
+      {
+        "value": "http://10.0.0.1",
+        "correct": false
+      },
+      {
+        "value": "http://127.0.0.1",
+        "correct": false
+      },
+      {
+        "value": "http://169.254.169.254",
+        "correct": true
+      },
+      {
+        "value": "http://192.168.0.254",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "When creating a new security group, all inbound traffic is allowed by default.",
+    "choices": [
+      {
+        "value": "True",
+        "correct": false
+      },
+      {
+        "value": "False",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "If an Amazon EBS volume is an additional partition (not the root volume), can I detach it without stopping the instance?",
+    "choices": [
+      {
+        "value": "No, you will need to stop the instance.",
+        "correct": false
+      },
+      {
+        "value": "Yes, although it may take some time.",
+        "correct": true
+      }
+    ]
+  }
+]

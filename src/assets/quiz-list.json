@@ -1,0 +1,32 @@
+[
+  {
+    "label": "AWS-IAM",
+    "name": "AWS-IAM",
+    "description": "AWS Identity Access Management (IAM) Questions",
+    "fileName": "AWS-IAM.json"
+  },
+  {
+    "label": "AWS-S3",
+    "name": "AWS-S3",
+    "description": "AWS Object Storage and CDN - S3, Glacier and CloudFront Questions",
+    "fileName": "AWS-S3.json"
+  },
+  {
+    "label": "AWS-EC2",
+    "name": "AWS-EC2",
+    "description": "AWS EC2 - The Backbone of AWS Questions",
+    "fileName": "AWS-EC2.json"
+  },
+  {
+    "label": "AWS-Route53",
+    "name": "AWS-Route53",
+    "description": "AWS Route53 Questions.",
+    "fileName": "AWS-Route53.json"
+  },
+  {
+    "label": "AWS-Database",
+    "name": "AWS-Database",
+    "description": "Databases on AWS Questions",
+    "fileName": "AWS-Database.json"
+  }
+]

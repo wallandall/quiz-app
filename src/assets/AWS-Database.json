@@ -1,0 +1,150 @@
+[
+  {
+    "label": "Which of the following is most suitable for OLAP?",
+    "choices": [
+      {
+        "value": "Redshift",
+        "correct": true
+      },
+      {
+        "value": "RDS",
+        "correct": false
+      },
+      {
+        "value": "ElastiCache",
+        "correct": false
+      },
+      {
+        "value": "DynamoDB",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Under what circumstances would I choose provisioned IOPS over standard storage when creating an RDS instance?",
+    "choices": [
+      {
+        "value": "If you use online transaction processing in your production environment.",
+        "correct": true
+      },
+      {
+        "value": "If this was a test DB.",
+        "correct": false
+      },
+      {
+        "value": "If your business was trying to save money.",
+        "correct": false
+      },
+      {
+        "value": "If you have workloads that are not sensitive to latency/lag.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "In RDS, what is the maximum value I can set for my backup retention period?",
+    "choices": [
+      {
+        "value": "30 Days",
+        "correct": false
+      },
+      {
+        "value": "45 Days",
+        "correct": false
+      },
+      {
+        "value": "35 Days",
+        "correct": true
+      },
+      {
+        "value": "15 Days",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "With new RDS Db instances, automated backups are enabled by default?",
+    "choices": [
+      {
+        "value": "True",
+        "correct": true
+      },
+      {
+        "value": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "MySQL installations default to port number ________.",
+    "choices": [
+      {
+        "value": "1433",
+        "correct": false
+      },
+      {
+        "value": "3306",
+        "correct": true
+      },
+      {
+        "value": "80",
+        "correct": false
+      },
+      {
+        "value": "3389",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "RDS Reserved instances are available for multi-AZ deployments.",
+    "choices": [
+      {
+        "value": "True",
+        "correct": true
+      },
+      {
+        "value": "False",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "How many copies of my data does RDS - Aurora store by default?",
+    "choices": [
+      {
+        "value": "6",
+        "correct": true
+      },
+      {
+        "value": "2",
+        "correct": false
+      },
+      {
+        "value": "3",
+        "correct": false
+      },
+      {
+        "value": "1",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which of the following DynamoDB features are chargeable, when using a single region? (Choose 2)",
+    "choices": [
+      {
+        "value": "Read and Write Capacity",
+        "correct": true
+      },
+      {
+        "value": "The number of tables created",
+        "correct": false
+      },
+      {
+        "value": "Incoming Data Transfer",
+        "correct": false
+      }
+    ]
+  }
+]

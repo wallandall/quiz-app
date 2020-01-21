@@ -1,0 +1,158 @@
+[
+  {
+    "label": "You have created a new subdomain for your popular website, and you need this subdomain to point to an Elastic Load Balancer using Route53. Which DNS record set should you create?",
+    "choices": [
+      {
+        "value": "MX",
+        "correct": false
+      },
+      {
+        "value": "A or AAAA with Alias set",
+        "correct": true
+      },
+      {
+        "value": "CNAME",
+        "correct": false
+      },
+      {
+        "value": "A or AAAA",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "In AWS Route53, which of the following are true?",
+    "choices": [
+      {
+        "value": "A CNAME record assigns an Alias name to a Canonical Name.",
+        "correct": true
+      },
+      {
+        "value": "A CNAME record assigns an Alias name to an IP address.",
+        "correct": false
+      },
+      {
+        "value": "R53 Alias Records allow fast response to AWS initiated environmental changes",
+        "correct": false
+      },
+      {
+        "value": "Route53 allows you to create a CNAME at the top node of a DNS namespace (zone apex)",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Which of the following Route 53 policies allow you to a) route data to a second resource if the first is unhealthy, and b) route data to resources that have better performance?",
+    "choices": [
+      {
+        "value": "Failover Routing and Latency-based Routing",
+        "correct": true
+      },
+      {
+        "value": "Geoproximity Routing and Geolocation Routing",
+        "correct": false
+      },
+      {
+        "value": "Geolocation Routing and Latency-based Routing",
+        "correct": false
+      },
+      {
+        "value": "Failover Routing and Simple Routing",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "True or False: There is a limit to the number of domain names that you can manage using Route 53.",
+    "choices": [
+      {
+        "value": "True. There is a hard limit of 10 domain names. You cannot go above this number.",
+        "correct": false
+      },
+      {
+        "value": "False. By default, you can support as many domain names on Route 53 as you want.",
+        "correct": false
+      },
+      {
+        "value": "True and False. With Route 53, there is a default limit of 50 domain names. However, this limit can be increased by contacting AWS support.",
+        "correct": true
+      }
+    ]
+  },
+  {
+    "label": "You have an enterprise solution that operates Active-Active with facilities in Regions US-West and India. Due to growth in the Asian market you have been directed by the CTO to ensure that only traffic in Asia (between Turkey and Japan) is directed to the India Region. Which of these will deliver that result?",
+    "choices": [
+      {
+        "value": "R53 - Geoproximity routing policy",
+        "correct": true
+      },
+      {
+        "value": "R53 - Weighted routing policy, calculate the proportion of customers in each and weight the policy to ensure that each location gets a fair load.",
+        "correct": false
+      },
+      {
+        "value": "CloudFront a combination of Blacklist & White lists to control which countries so to which Site,",
+        "correct": false
+      },
+      {
+        "value": "Latency routing policy. This will ensure only customers that are close will go to the India installation.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Route53 does not support zone apex records (naked domain names).",
+    "choices": [
+      {
+        "value": "It depends on the configuration.",
+        "correct": false
+      },
+      {
+        "value": "False.",
+        "correct": true
+      },
+      {
+        "value": "Only in Us-East-1.",
+        "correct": false
+      },
+      {
+        "value": "True.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Route53 is named so because ________.",
+    "choices": [
+      {
+        "value": "The DNS Port is on Port 53 and Route53 is a DNS Service.",
+        "correct": true
+      },
+      {
+        "value": "Route 66 was already registered with Microsoft.",
+        "correct": false
+      },
+      {
+        "value": "It was invented in 1953.",
+        "correct": false
+      },
+      {
+        "value": "Beats me: only people in marketing can tell you the reason behind its name.",
+        "correct": false
+      }
+    ]
+  },
+  {
+    "label": "Route53 is Amazon's DNS Service.",
+    "choices": [
+      {
+        "value": "true",
+        "correct": true
+      },
+      {
+        "value": "false",
+        "correct": false
+      }
+    ]
+  }
+]

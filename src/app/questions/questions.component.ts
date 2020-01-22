@@ -12,11 +12,11 @@ import { Quiz, Answers, Choice, Question } from "../quiz.model";
   styleUrls: ["./questions.component.scss"]
 })
 export class QuestionsComponent implements OnInit {
-  private quiz: Quiz;
-  private answers: Answers;
-  private questions: Question[];
-  private currentQuestionIndex: number;
-  private progress: number;
+  public quiz: Quiz;
+  public answers: Answers;
+  public questions: Question[];
+  public currentQuestionIndex: number;
+  public progress: number;
 
   private showResults = false;
 

@@ -11,15 +11,26 @@ export class ResultsComponent {
 
   public totalQuestions;
   public totalCorrect;
+  public percentage;
 
-  sumCorrect() {
-    let correct = 0;
-    this.answers.values.length;
+  sumCorrectAnswers(answers: Answers[]): number {
+    let score = 0;
+
+    for (let [key, value] of Object.entries(answers.values)) {
+      console.log(key);
+      console.log(value.correct);
+      if (value.correct) {
+        score++;
+        console.log("Correct");
+      }
+    }
+
+    return score;
   }
 
   ngOnInit(): void {
     this.totalQuestions = this.answers.values.length;
-    this.totalCorrect = 0;
-    console.log(this.sumCorrect);
+    this.totalCorrect = this.sumCorrectAnswers(this.answers);
+    this.percentage = (this.totalCorrect / this.totalQuestions) * 100;
   }
 }

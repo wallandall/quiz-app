@@ -1,5 +1,17 @@
 <div class="results">
-  <h2>Results: {{ totalQuestions }}</h2>
+  <h2>Results: {{ totalCorrect }} / {{ totalQuestions }}</h2>
+  <div class="percent">
+    <div *ngIf="percentage >= 60; else fail">
+      <p>You scored {{ percentage }}%, well done, you passed!</p>
+    </div>
+
+    <ng-template #fail>
+      <p>
+        You scored {{ percentage }} %, please try again, you need 60% or more to
+        pass!
+      </p>
+    </ng-template>
+  </div>
 
   <div
     class="answer"
@@ -19,7 +31,7 @@
       </div>
     </ng-template>
   </div>
-  <button mat-raised-button color="primary">
-    <a routerLink="/welcome" class="">Choose another quiz</a>
+  <button mat-raised-button class="btn" color="primary">
+    <a routerLink="/welcome">Choose another quiz</a>
   </button>
 </div>

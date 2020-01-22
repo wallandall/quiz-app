@@ -1,5 +1,7 @@
 # QuizApp
 
+This application allows users to select a Quiz and answer questions stored in json format. Based on the the feed back the user will recieve a score with a list of their results. A demo of the application can be found [https://quiz.christopherwall.online/](here)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
 
 ## Development server

@@ -18,7 +18,7 @@ export class QuestionsComponent implements OnInit {
   public currentQuestionIndex: number;
   public progress: number;
 
-  private showResults = false;
+  public showResults = false;
 
   // inject both the active route and the questions service
   constructor(

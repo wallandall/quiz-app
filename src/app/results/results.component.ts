@@ -17,11 +17,8 @@ export class ResultsComponent {
     let score = 0;
 
     for (let [key, value] of Object.entries(answers.values)) {
-      console.log(key);
-      console.log(value.correct);
       if (value.correct) {
         score++;
-        console.log("Correct");
       }
     }
 
